@@ -6,6 +6,11 @@ interface Options {
   initialProgress?: number;
 }
 
+/**
+ *
+ * @param options
+ * @returns Tick function which returns a value from minValue to maxValue with every call. If loop is set to true it will go back from maxValue to minValue, otherwise it will reset the value to minValue when reaching maxValue
+ */
 export const createAnimator =
   ({
     minValue = 0,

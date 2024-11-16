@@ -22,4 +22,4 @@ Random float value
 
 ## Defined in
 
-[numbers/random.ts:7](https://github.com/Tismas/naszos-utils/blob/9a71c5a0416cc049a4f69cbeb82604980d2e32bf/src/numbers/random.ts#L7)
+[numbers/random.ts:7](https://github.com/Tismas/naszos-utils/blob/c1ededb0927e11e7aa1a04fa546f95ae3dba72d9/src/numbers/random.ts#L7)
