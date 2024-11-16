@@ -16,7 +16,7 @@ export default defineConfig({
     outDir: "./build/dist",
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
-      name: "gameUtils",
+      name: "utils",
       formats,
       fileName: (format) => fileName[format],
     },

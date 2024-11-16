@@ -1,11 +1,11 @@
 {
   "name": "@naszos/utils",
-  "private": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "private": false,
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Tismas/naszos-utils.git"
+    "url": "git+https://github.com/Tismas/naszos-utils.git"
   },
   "exports": {
     ".": {
