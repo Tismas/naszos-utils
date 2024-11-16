@@ -1,4 +1,5 @@
-interface Options {
+/** Options for createAnimator function */
+export interface AnimatorOptions {
   minValue?: number;
   maxValue?: number;
   speed?: number;
@@ -8,7 +9,7 @@ interface Options {
 
 /**
  *
- * @param options
+ * @param {AnimatorOptions} options
  * @returns Tick function which returns a value from minValue to maxValue with every call. If loop is set to true it will go back from maxValue to minValue, otherwise it will reset the value to minValue when reaching maxValue
  */
 export const createAnimator =
@@ -18,7 +19,7 @@ export const createAnimator =
     speed = (maxValue - minValue) / 100,
     loop = false,
     initialProgress = 0,
-  }: Options = {}) =>
+  }: AnimatorOptions = {}) =>
   (): number => {
     initialProgress += speed;
     let outOfBoundaries = false;

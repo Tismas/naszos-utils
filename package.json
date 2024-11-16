@@ -1,6 +1,6 @@
 {
   "name": "@naszos/utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "type": "module",
   "repository": {
@@ -23,11 +23,10 @@
   "scripts": {
     "dev": "vite",
     "build": "rm -rf ./build && tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts && cp ./package.json build && cp ./README.md build",
-    "gen:docs": "typedoc && concat-md --decrease-title-levels --dir-name-as-title  docs > README.md",
+    "gen:docs": "typedoc",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "concat-md": "^0.5.1",
     "dts-bundle-generator": "^9.5.1",
     "typedoc": "^0.26.11",
     "typedoc-plugin-markdown": "^4.2.10",

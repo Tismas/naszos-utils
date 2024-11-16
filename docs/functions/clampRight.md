@@ -19,4 +19,4 @@ function clampRight(
 
 ## Defined in
 
-[numbers/clamp.ts:34](https://github.com/Tismas/naszos-utils/blob/c1ededb0927e11e7aa1a04fa546f95ae3dba72d9/src/numbers/clamp.ts#L34)
+[numbers/clamp.ts:34](https://github.com/Tismas/naszos-utils/blob/4c7f3cf5cc9cb0967eb0ee45a68ceee96b31079a/src/numbers/clamp.ts#L34)

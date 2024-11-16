@@ -1,3 +1,4 @@
+export * from "./numbers/animate";
 export * from "./numbers/clamp";
 export * from "./numbers/interpolate";
 export * from "./numbers/random";
