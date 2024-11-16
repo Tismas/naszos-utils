@@ -29,4 +29,4 @@ Interpolated value
 
 ## Defined in
 
-[numbers/interpolate.ts:8](https://github.com/Tismas/naszos-utils/blob/5086318d62b92a321f809958417cda9a8c766a3f/src/numbers/interpolate.ts#L8)
+[numbers/interpolate.ts:8](https://github.com/Tismas/naszos-utils/blob/9a71c5a0416cc049a4f69cbeb82604980d2e32bf/src/numbers/interpolate.ts#L8)

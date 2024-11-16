@@ -34,4 +34,4 @@ Clamped value
 
 ## Defined in
 
-[numbers/clamp.ts:9](https://github.com/Tismas/naszos-utils/blob/5086318d62b92a321f809958417cda9a8c766a3f/src/numbers/clamp.ts#L9)
+[numbers/clamp.ts:9](https://github.com/Tismas/naszos-utils/blob/9a71c5a0416cc049a4f69cbeb82604980d2e32bf/src/numbers/clamp.ts#L9)
