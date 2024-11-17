@@ -18,7 +18,7 @@ new Vector2(x, y): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:7](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L7)
+[vector/Vector2.ts:7](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L7)
 
 ## Properties
 
@@ -30,7 +30,7 @@ x: number;
 
 #### Defined in
 
-[vector/Vector2.ts:4](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L4)
+[vector/Vector2.ts:4](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L4)
 
 ***
 
@@ -42,7 +42,7 @@ y: number;
 
 #### Defined in
 
-[vector/Vector2.ts:5](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L5)
+[vector/Vector2.ts:5](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L5)
 
 ## Accessors
 
@@ -74,7 +74,7 @@ set angle(angle): void
 
 #### Defined in
 
-[vector/Vector2.ts:22](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L22)
+[vector/Vector2.ts:22](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L22)
 
 ***
 
@@ -106,7 +106,7 @@ set length(length): void
 
 #### Defined in
 
-[vector/Vector2.ts:12](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L12)
+[vector/Vector2.ts:12](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L12)
 
 ## Methods
 
@@ -122,7 +122,7 @@ abs(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:83](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L83)
+[vector/Vector2.ts:83](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L83)
 
 ***
 
@@ -142,7 +142,7 @@ add(v): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:51](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L51)
+[vector/Vector2.ts:51](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L51)
 
 ***
 
@@ -162,7 +162,7 @@ angleTo(v): number
 
 #### Defined in
 
-[vector/Vector2.ts:79](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L79)
+[vector/Vector2.ts:79](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L79)
 
 ***
 
@@ -178,7 +178,7 @@ clone(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:67](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L67)
+[vector/Vector2.ts:67](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L67)
 
 ***
 
@@ -198,7 +198,7 @@ distanceTo(v): number
 
 #### Defined in
 
-[vector/Vector2.ts:75](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L75)
+[vector/Vector2.ts:75](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L75)
 
 ***
 
@@ -218,7 +218,7 @@ divide(value): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:63](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L63)
+[vector/Vector2.ts:63](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L63)
 
 ***
 
@@ -238,7 +238,7 @@ multiply(value): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:59](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L59)
+[vector/Vector2.ts:59](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L59)
 
 ***
 
@@ -254,7 +254,7 @@ normalized(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:71](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L71)
+[vector/Vector2.ts:71](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L71)
 
 ***
 
@@ -274,7 +274,7 @@ subtract(v): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:55](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L55)
+[vector/Vector2.ts:55](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L55)
 
 ***
 
@@ -294,7 +294,7 @@ withAngle(angle): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:38](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L38)
+[vector/Vector2.ts:38](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L38)
 
 ***
 
@@ -314,7 +314,7 @@ withLength(length): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:32](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L32)
+[vector/Vector2.ts:32](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L32)
 
 ***
 
@@ -334,7 +334,7 @@ withX(x): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:44](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L44)
+[vector/Vector2.ts:44](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L44)
 
 ***
 
@@ -354,7 +354,7 @@ withY(y): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:47](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L47)
+[vector/Vector2.ts:47](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L47)
 
 ***
 
@@ -370,7 +370,7 @@ static down(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:105](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L105)
+[vector/Vector2.ts:105](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L105)
 
 ***
 
@@ -386,7 +386,7 @@ static left(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:108](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L108)
+[vector/Vector2.ts:108](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L108)
 
 ***
 
@@ -402,7 +402,7 @@ static one(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:98](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L98)
+[vector/Vector2.ts:98](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L98)
 
 ***
 
@@ -424,7 +424,7 @@ static random(__namedParameters, __namedParameters): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:87](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L87)
+[vector/Vector2.ts:87](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L87)
 
 ***
 
@@ -440,7 +440,7 @@ static right(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:111](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L111)
+[vector/Vector2.ts:111](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L111)
 
 ***
 
@@ -456,7 +456,7 @@ static up(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:102](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L102)
+[vector/Vector2.ts:102](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L102)
 
 ***
 
@@ -472,4 +472,4 @@ static zero(): Vector2
 
 #### Defined in
 
-[vector/Vector2.ts:94](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/vector/Vector2.ts#L94)
+[vector/Vector2.ts:94](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/vector/Vector2.ts#L94)

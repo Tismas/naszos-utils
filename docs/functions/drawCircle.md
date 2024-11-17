@@ -14,4 +14,4 @@ function drawCircle(ctx, __namedParameters): void
 
 ## Defined in
 
-[canvas/shapes.ts:58](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/canvas/shapes.ts#L58)
+[canvas/shapes.ts:58](https://github.com/Tismas/naszos-utils/blob/d1a1eb2a775799ea1a271a00b3a6cade833871d8/src/canvas/shapes.ts#L58)

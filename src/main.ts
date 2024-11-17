@@ -1,11 +1,9 @@
 import {
   clearCanvas,
-  drawCircle,
-  drawEllipsis,
-  drawLine,
-  drawRect,
   createAnimator,
   Vector2,
+  drawEllipsis,
+  keepCanvasFullScreen,
 } from ".";
 
 const canvas = document.createElement("canvas");
@@ -14,44 +12,48 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 document.body.appendChild(canvas);
 
-const tick = createAnimator({ maxValue: Math.PI });
-const pos = new Vector2(canvas.width / 2, canvas.height / 2);
-// const velocity = Vector2.zero();
-// const acceleration = Vector2.zero();
+const tick = createAnimator({ maxValue: 0.2, speed: 0.02, loop: true });
+let pos = new Vector2(canvas.width / 2, canvas.height / 2);
+let velocity = Vector2.zero();
+let squashFactor = 0;
+const radius = 20;
+const acceleration = new Vector2(0, 0.1);
+
+const getSquashedRadiusY = () => {
+  return radius - radius * squashFactor;
+};
+const getSquashedRadiusX = () => {
+  return radius + radius * squashFactor;
+};
 
 const draw = () => {
   clearCanvas(ctx);
 
-  drawLine(ctx, {
-    start: new Vector2(100, 100),
-    end: new Vector2(200, 200),
-    color: "#fff",
-  });
-
-  drawRect(ctx, {
-    position: new Vector2(300, 100),
-    height: 100,
-    width: 50,
-    rotation: Math.PI / 6,
-    color: "#fff",
-  });
-
-  drawCircle(ctx, {
-    color: "#fff",
-    position: new Vector2(500, 150),
-    radius: 50,
-  });
-
   drawEllipsis(ctx, {
     color: "#fff",
-    position: new Vector2(700, 150),
-    radiusX: 100,
-    radiusY: 50,
+    position: pos,
+    radiusX: getSquashedRadiusX(),
+    radiusY: getSquashedRadiusY(),
+    filled: true,
   });
 };
 
 const update = () => {
-  pos.y = canvas.height / 2 - Math.sin(tick()) * 100;
+  if (squashFactor) {
+    squashFactor = tick();
+    pos.y = canvas.height - getSquashedRadiusY();
+
+    if (squashFactor) return;
+  }
+
+  velocity = velocity.add(acceleration);
+  pos = pos.add(velocity);
+
+  if (pos.y >= canvas.height - radius) {
+    squashFactor = tick();
+    pos.y = canvas.height - getSquashedRadiusY();
+    velocity.y = -velocity.y;
+  }
 };
 
 const loop = () => {
@@ -59,4 +61,5 @@ const loop = () => {
   draw();
 };
 
+keepCanvasFullScreen(canvas);
 setInterval(loop, 1000 / 60);
