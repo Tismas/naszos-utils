@@ -19,4 +19,4 @@ function clampLeft(
 
 ## Defined in
 
-[numbers/clamp.ts:26](https://github.com/Tismas/naszos-utils/blob/4c7f3cf5cc9cb0967eb0ee45a68ceee96b31079a/src/numbers/clamp.ts#L26)
+[numbers/clamp.ts:26](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/numbers/clamp.ts#L26)

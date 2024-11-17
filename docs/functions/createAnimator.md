@@ -18,4 +18,4 @@ Tick function which returns a value from minValue to maxValue with every call. I
 
 ## Defined in
 
-[numbers/animate.ts:16](https://github.com/Tismas/naszos-utils/blob/4c7f3cf5cc9cb0967eb0ee45a68ceee96b31079a/src/numbers/animate.ts#L16)
+[numbers/animate.ts:16](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/numbers/animate.ts#L16)

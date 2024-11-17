@@ -29,4 +29,4 @@ Array of numbers [start, end) where each value increases by step
 
 ## Defined in
 
-[numbers/range.ts:7](https://github.com/Tismas/naszos-utils/blob/4c7f3cf5cc9cb0967eb0ee45a68ceee96b31079a/src/numbers/range.ts#L7)
+[numbers/range.ts:7](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/numbers/range.ts#L7)

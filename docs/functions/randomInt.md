@@ -22,4 +22,4 @@ Random int value
 
 ## Defined in
 
-[numbers/random.ts:17](https://github.com/Tismas/naszos-utils/blob/4c7f3cf5cc9cb0967eb0ee45a68ceee96b31079a/src/numbers/random.ts#L17)
+[numbers/random.ts:17](https://github.com/Tismas/naszos-utils/blob/17b33842abc2ec4b3d89cd93065f656880e196df/src/numbers/random.ts#L17)
